@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.jumbotron {
+    background: url('../portfolio/portfolioAssets/icebergs-1652177.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #4D82CE;
+    text-align: center;
+    background-position: center;
+    border-style: double;
+    border-width: 10px;
+    text-shadow: 3px 3px black;
+    border-radius: 10px 10px 15px 15px;
+}
+
+#aboutMe {
+    background-color: lightskyblue;
+    border-style: double;
+    border-color: #4D82CE;
+    border-width: 8px;
+    border-radius: 10px 10px 10px 10px;
+    border-spacing: 10px;
+}
+
+
+
+.d-inline-block align-top {
+    background: transparent;
+}
+
+
+@font-face {
+    font-family: 'antipasto';
+    src: url('../portfolio/portfolioAssets/Antipasto-Pro-Regular-trial.ttf');
+    font-family: 'canvas';
+    src: url('../portfolio/portfolioAssets/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf');
+    /* src: url('MADE\ Canvas\ Black\ PERSONAL\ USE.otf'); */
+}
+
+#aboutMe {
+    padding: 50px;
+}
+
+#projects {
+    text-align: center;
+    padding: 150px;
+}
+
+.projectsHeader {
+    text-size-adjust: 20px;
+    /* font-family: var(--heading-font); */
+    font-family: var(--secondary-font);
+}
+
+
+.disabledLink {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+:root {
+    --heading-font: 'antipasto';
+    --secondary-font: 'canvas';
+}
+
+
+h2 {
+    font-family: var(--heading-font);
+}
+
+#contact {
+    border-style: double;
+    border-color: #4D82CE;
+    border-width: 8px;
+    border-radius: 20%;
+    background-color: lightskyblue;
+    font-size: 16px;
+}
+
+
+#footer {
+    font-family: var(--heading-font);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
