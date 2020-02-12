@@ -10,7 +10,7 @@ html {
 }
 
 .jumbotron {
-    background: url('../portfolio/portfolioAssets/icebergs-1652177.jpg');
+    background: url('./portfolio/portfolioAssets/icebergs-1652177.jpg');
     background-size: cover;
     height: 100vh;
     color: #4D82CE;
@@ -49,9 +49,9 @@ html {
 
 @font-face {
     font-family: 'antipasto';
-    src: url('../portfolio/portfolioAssets/Antipasto-Pro-Regular-trial.ttf');
+    src: url('./portfolio/portfolioAssets/Antipasto-Pro-Regular-trial.ttf');
     font-family: 'canvas';
-    src: url('../portfolio/portfolioAssets/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf');
+    src: url('./portfolio/portfolioAssets/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf');
     /* src: url('MADE\ Canvas\ Black\ PERSONAL\ USE.otf'); */
 }
 
