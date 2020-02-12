@@ -22,6 +22,15 @@ html {
     border-radius: 10px 10px 15px 15px;
 }
 
+.logo {
+    color: black;
+}
+
+.logo:hover {
+    color: white;
+}
+
+
 #aboutMe {
     background-color: lightskyblue;
     border-style: double;
@@ -91,4 +100,5 @@ h2 {
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+    background-color: rgb(245, 245, 245);
 }
