@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: slategrey;
+}
+
 .navbar {
     float: right;
     position: fixed;
@@ -18,8 +22,8 @@ html {
     background-position: center;
     border-style: double;
     border-width: 10px;
-    text-shadow: 3px 3px black;
-    border-radius: 10px 10px 15px 15px;
+    text-shadow: 3px .25px black;
+    border-radius: 20%;
 }
 
 .logo {
@@ -27,12 +31,12 @@ html {
 }
 
 .logo:hover {
-    color: white;
+    color: skyblue;
 }
 
 
 #aboutMe {
-    background-color: lightskyblue;
+    background-color: rgb(177, 182, 223);
     border-style: double;
     border-color: #4D82CE;
     border-width: 8px;
@@ -62,6 +66,7 @@ html {
 #projects {
     text-align: center;
     padding: 150px;
+    color: rgb(230, 228, 241);
 }
 
 .projectsHeader {
@@ -100,5 +105,5 @@ h2 {
     text-align: center;
     padding: 5px;
     border-radius: 10px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(230, 228, 241);
 }
