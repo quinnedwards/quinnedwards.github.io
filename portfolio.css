@@ -14,7 +14,7 @@ body {
 }
 
 .jumbotron {
-    background: url('../portfolio/portfolioAssets/icebergs-1652177.jpg');
+    background: url('./portfolioAssets/icebergs-1652177.jpg');
     background-size: cover;
     height: 100vh;
     color: #4D82CE;
